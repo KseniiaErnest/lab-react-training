@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.idcard-container {
+  display: flex;
+  align-items: start;
+  border: 1px solid black;
+  width: 30vw;
+  
+}
+
+.image-box, .profile-box {
+  padding: 0.5rem;
+}
+
+.profile-box p span {
+  font-weight: 500;
 }
