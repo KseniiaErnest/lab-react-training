@@ -6,6 +6,7 @@ const cardColors = {
 };
 
   return (
+    
     <div className="creditCard-container" style={cardColors}>
     
     <div>
@@ -22,6 +23,7 @@ const cardColors = {
     </div>
 
     </div>
+
   )
 }
 

@@ -59,6 +59,11 @@
   font-weight: 500;
 }
 
+.big-container {
+  display: flex;
+  
+}
+
 .creditCard-container {
     width: 23vw;
     padding: 0.7rem;
