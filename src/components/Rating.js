@@ -18,7 +18,7 @@ function Rating({children}) {
 
 return (
   <div>
-    <p>{rating}</p>
+    <p className="rating">{rating}</p>
   </div>
 )
 

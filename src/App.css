@@ -59,9 +59,13 @@
   font-weight: 500;
 }
 
+.rating {
+  font-size: 2rem;
+}
+
 .big-container {
   display: flex;
-  
+
 }
 
 .creditCard-container {
@@ -69,4 +73,25 @@
     padding: 0.7rem;
     margin: 1rem 0;
     border-radius: 9px;
+}
+
+.driverCard-container {
+background-color: rgb(79, 89, 172);
+width: 40vw;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 11px;
+padding: 1.4rem;
+margin: 1rem;
+color: #fff;
+gap: 1rem;
+
+
+}
+
+.image {
+  width: 5.5vw;
+  height: 5.5vw;
+  border-radius: 50%;
 }
