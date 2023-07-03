@@ -55,6 +55,10 @@
   padding: 0.5rem;
 }
 
+.image-box img {
+  width: 10vw;
+}
+
 .profile-box p span {
   font-weight: 500;
 }
@@ -112,4 +116,14 @@ button {
 }
 .even {
   background-color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+}
+
+.selected-country {
+  background-color: rgb(118, 174, 226);
 }
