@@ -17,15 +17,18 @@ export default function Dice() {
   // Function to set 'dice' state to 'emptyDice' to dispaly empty dice image
   const handleClick = () => {
     setDice(emptyDice);
+    clearTimeout(timerId);
   };
 
   // Function to delay the update of the 'dice' state with a random dice image.
   // Generate the random index based on the length of the diceData, and set 'dice' state to the corresponding dice image
 // using setDice(diceData[randomIndex])
-  setTimeout(() => {
+  const timerId = setTimeout(() => {
     const randomIndex = Math.floor(Math.random() * diceData.length);
     setDice(diceData[randomIndex]);
   }, 1000);
+
+  
 
 
 
@@ -36,3 +39,18 @@ export default function Dice() {
     // Add onClick with handleClick to trigger the dice roll when clicked
   )
 }
+
+
+// const [dice, setDice] = useState(() => diceData[2] );
+  
+//   // Function to set 'dice' state to 'emptyDice' to dispaly empty dice image
+//   const handleClick = () => {
+//     setDice(emptyDice);
+
+//     setTimeout(() => {
+//         const randomIndex = Math.floor(Math.random() * diceData.length);
+//         setDice(diceData[randomIndex]);
+//       }, 1000);
+//   };
+
+
